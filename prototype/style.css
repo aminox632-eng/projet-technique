@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    border: 1px solid darkblue;
+}
+nav div{
+    display: flex;
+    margin-left: 550px;
+    gap: 90px;
+    justify-content: space-between;
+}
+nav div a{
+    
+    text-decoration: none;
+    color: white;
+    display: flex;
+    white-space: nowrap;
+    transition: 3.5;
+}
+nav div a:hover{
+    transition: scale(1.1);
+    color: blue;
+}
+
+.im2{
+    display: flex;
+    min-width: 50px;
+}
+nav h2{
+    display: flex;
+    margin-left: 5px;
+}
+.txt{
+    max-width: 500px;
+    margin-left: 5%;
+}
+.info{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.info a{
+    position: absolute;
+    padding: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 50px;
+    margin-top: 5%;
+    text-decoration: none;
+
+}
+.end{
+    position: absolute;
+    justify-content: end;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.img{
+    position: absolute;
+    margin-left: 49%;
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 2%;
+}
+.categorie{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    flex-direction: column;
+    gap: 42px;
+    margin-left: -55%;
+    margin-top: 23%;
+}
+hr{
+    position: absolute;
+    margin-top: 15%;
+    width: 100%;
+}
+.end-img{
+    display: flex;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    gap: 110%;
+}
+.im10{
+    margin-top: -30px;
+    width: 150px;
+    height: 150px;
+}
